@@ -1,4 +1,0 @@
-name:f1
-password:123456
-name:f2
-password:abcdef
