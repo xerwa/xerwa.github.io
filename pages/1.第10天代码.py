@@ -1,3 +1,11 @@
+'''代码'''
+import streamlit as st
+
+st.write('第10天代码')
+st.write('————————————————————————————————————————')
+st.write('与石墨文档不同的是，这里的代码是可以复制粘贴的，格式不会错乱')
+
+st.code("""
 '''手速测试小游戏'''
 from pgzrun import *
 import time
@@ -69,3 +77,4 @@ def draw():
         screen.draw.text('points:'+str(point), (200, 170), color="gray", fontsize=60)
 
 go()
+""")
